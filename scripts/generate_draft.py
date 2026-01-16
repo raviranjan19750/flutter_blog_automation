@@ -58,8 +58,8 @@ def generate_draft(topic):
     try:
         # Call Anthropic API
         message = client.messages.create(
-            model="claude-3-5-sonnet-20241022",
-            max_tokens=8000,
+            model="claude-3-haiku-20240307",
+            max_tokens=4096,
             temperature=0.7,  # Slightly creative but focused
             messages=[
                 {"role": "user", "content": prompt}
@@ -108,7 +108,7 @@ def save_draft(topic, content, usage):
         'generated_at': datetime.now().isoformat(),
         'word_count': len(content.split()),
         'char_count': len(content),
-        'model_used': 'claude-3-5-sonnet-20241022',
+        'model_used': 'claude-3-haiku-20240307',
         'tokens_input': usage.input_tokens,
         'tokens_output': usage.output_tokens,
         'status': 'draft'
