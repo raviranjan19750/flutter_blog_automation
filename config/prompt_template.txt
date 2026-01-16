@@ -15,6 +15,7 @@ Write a technical deep-dive blog post on the following topic:
 - Explain implementation details, not just API usage
 - Discuss performance implications and memory considerations
 - Mention edge cases and gotchas from real-world usage
+- Include at least 2 Mermaid diagrams (flowcharts, sequence, or class diagrams) to visualize complex logic or architectures
 
 ## Code Examples
 - Use realistic scenarios, not trivial examples
@@ -56,6 +57,7 @@ Write a technical deep-dive blog post on the following topic:
 - Pure Markdown
 - Use ## for main sections, ### for subsections
 - Code blocks with ```dart language specifier
+- Mermaid diagrams with ```mermaid language specifier
 - No front-matter or metadata
 - Ready to paste into Medium's import tool
 
