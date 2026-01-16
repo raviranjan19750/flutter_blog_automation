@@ -1,0 +1,43 @@
+name: Post-Draft Reminder
+
+on:
+  schedule:
+    # Every Wednesday at 9:00 UTC (2 days after Monday generation)
+    - cron: '0 9 * * 3'
+  
+  workflow_dispatch:  # Manual trigger for testing
+
+jobs:
+  remind:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      
+      - name: Find Latest Draft
+        id: latest
+        run: |
+          # Get the newest directory in drafts/
+          LATEST_DIR=$(ls -dt drafts/*/ | head -n 1)
+          
+          if [ -z "$LATEST_DIR" ]; then
+            echo "no_draft=true" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+          
+          # Extract title from metadata.json
+          TITLE=$(cat "${LATEST_DIR}metadata.json" | python3 -c "import sys, json; print(json.load(sys.stdin)['title'])")
+          echo "topic_title=$TITLE" >> $GITHUB_OUTPUT
+          echo "no_draft=false" >> $GITHUB_OUTPUT
+
+      - name: Send Notification
+        if: steps.latest.outputs.no_draft == 'false'
+        run: |
+          curl -d "⏰ Reminder: Time to upload your latest blog post! Topic: ${{ steps.latest.outputs.topic_title }}" \
+               -H "Title: Blog Upload Reminder" \
+               -H "Priority: high" \
+               -H "Tags: alarm_clock,writing_hand" \
+               ntfy.sh/flutter-blog-${{ github.repository_id }}
