@@ -85,6 +85,15 @@ jobs:
           DRAFT_DIR=$(ls -t drafts/ | head -n 1)
           echo "**Location:** \`drafts/$DRAFT_DIR\`" >> $GITHUB_STEP_SUMMARY
       
+      - name: Send ntfy notification
+        if: success()
+        run: |
+          curl -d "✅ Blog Draft Generated: ${{ steps.select.outputs.topic_title }}" \
+               -H "Title: Blog Automation Success" \
+               -H "Priority: high" \
+               -H "Tags: white_check_mark,memo" \
+               ntfy.sh/flutter-blog-${{ github.repository_id }}
+      
       - name: Notify on failure
         if: failure()
         run: |
