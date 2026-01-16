@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-01-16T21:18:18.642958",
+  "last_updated": "2026-01-16T21:32:08.345875",
   "topics": [
     {
       "id": "isolates-deep-dive",
@@ -41,7 +41,7 @@
       "title": "Flutter's Render Pipeline: From Widget to Pixels",
       "category": "internals",
       "difficulty": "advanced",
-      "status": "available",
+      "status": "used",
       "keywords": [
         "renderobject",
         "pipeline",
@@ -49,7 +49,10 @@
         "layertree",
         "compositing"
       ],
-      "created_at": "2025-01-15"
+      "created_at": "2025-01-15",
+      "selected_at": "2026-01-16T21:31:41.600745",
+      "used_at": "2026-01-16T21:32:08.345868",
+      "draft_path": "drafts/2026-01-16-render-pipeline-internals"
     },
     {
       "id": "keys-deep-dive",
