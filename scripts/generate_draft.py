@@ -48,11 +48,9 @@ def generate_draft(topic):
     
     # Load and format prompt
     template = load_prompt_template()
-    prompt = template.format(
-        title=topic['title'],
-        category=topic['category'],
-        keywords=', '.join(topic['keywords'])
-    )
+    prompt = template.replace("{title}", topic['title']) \
+                     .replace("{category}", topic['category']) \
+                     .replace("{keywords}", ', '.join(topic['keywords']))
     
     print(f"\n🤖 Generating draft for: {topic['title']}")
     print(f"📊 Estimated tokens: ~8000")
