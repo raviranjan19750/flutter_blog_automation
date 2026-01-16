@@ -23,7 +23,10 @@ def load_selected_topic():
 
 def load_prompt_template():
     """Load and return the prompt template"""
-    template_path = Path('config/prompt_template_v2.txt')
+    # Check for custom template path from environment
+    # Default to V2 if not specified
+    template_path_str = os.getenv('PROMPT_TEMPLATE_PATH', 'config/prompt_template_v2.txt')
+    template_path = Path(template_path_str)
     
     if not template_path.exists():
         print("❌ Prompt template not found")

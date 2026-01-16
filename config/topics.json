@@ -1,302 +1,304 @@
 {
-    "version": "1.0",
-    "last_updated": "2026-01-16T21:42:00",
-    "topics": [
-        {
-            "id": "isolates-deep-dive",
-            "title": "Dart Isolates: Understanding the Memory Model",
-            "category": "concurrency",
-            "difficulty": "advanced",
-            "status": "used",
-            "keywords": [
-                "isolates",
-                "sendport",
-                "receiveport",
-                "memory",
-                "concurrency"
-            ],
-            "created_at": "2025-01-15",
-            "selected_at": "2026-01-16T21:17:51.111060",
-            "used_at": "2026-01-16T21:18:18.642953",
-            "draft_path": "drafts/2026-01-16-isolates-deep-dive"
-        },
-        {
-            "id": "widget-rebuild-triggers",
-            "title": "Widget Rebuilds: What Actually Triggers Them",
-            "category": "performance",
-            "difficulty": "intermediate",
-            "status": "available",
-            "keywords": [
-                "widget",
-                "rebuild",
-                "setstate",
-                "inheritedwidget",
-                "performance"
-            ],
-            "created_at": "2025-01-15",
-            "selected_at": "2026-01-14T23:36:51.011238"
-        },
-        {
-            "id": "render-pipeline-internals",
-            "title": "Flutter's Render Pipeline: From Widget to Pixels",
-            "category": "internals",
-            "difficulty": "advanced",
-            "status": "used",
-            "keywords": [
-                "renderobject",
-                "pipeline",
-                "rendering",
-                "layertree",
-                "compositing"
-            ],
-            "created_at": "2025-01-15",
-            "selected_at": "2026-01-16T21:31:41.600745",
-            "used_at": "2026-01-16T21:32:08.345868",
-            "draft_path": "drafts/2026-01-16-render-pipeline-internals"
-        },
-        {
-            "id": "keys-deep-dive",
-            "title": "Keys in Flutter: Beyond the Basics",
-            "category": "architecture",
-            "difficulty": "intermediate",
-            "status": "available",
-            "keywords": [
-                "keys",
-                "globalkey",
-                "valuekey",
-                "objectkey",
-                "widget-tree"
-            ],
-            "created_at": "2025-01-15",
-            "selected_at": "2026-01-14T23:34:42.573726"
-        },
-        {
-            "id": "method-channel-implementation",
-            "title": "Platform Channels: Building Custom Method Channels",
-            "category": "platform",
-            "difficulty": "advanced",
-            "status": "available",
-            "keywords": [
-                "methodchannel",
-                "platform",
-                "native",
-                "android",
-                "ios"
-            ],
-            "created_at": "2025-01-15",
-            "selected_at": "2026-01-14T23:33:31.136945"
-        },
-        {
-            "id": "setstate-rebuild-mystery",
-            "title": "The setState() That Wasn't: Why My Widget Wouldn't Rebuild",
-            "category": "debugging",
-            "difficulty": "intermediate",
-            "status": "available",
-            "keywords": [
-                "setstate",
-                "rebuild",
-                "widget-lifecycle",
-                "keys",
-                "const"
-            ],
-            "created_at": "2025-01-16"
-        },
-        {
-            "id": "streamcontroller-memory-leak",
-            "title": "I Caused a Memory Leak with a Single StreamController",
-            "category": "performance",
-            "difficulty": "intermediate",
-            "status": "available",
-            "keywords": [
-                "memory-leak",
-                "streams",
-                "dispose",
-                "garbage-collection"
-            ],
-            "created_at": "2025-01-16"
-        },
-        {
-            "id": "buildcontext-async-gap",
-            "title": "BuildContext After async: The Async Gap That Crashes Your App",
-            "category": "bug-patterns",
-            "difficulty": "intermediate",
-            "status": "available",
-            "keywords": [
-                "buildcontext",
-                "async",
-                "mounted",
-                "navigation"
-            ],
-            "created_at": "2025-01-16"
-        },
-        {
-            "id": "listview-scroll-position",
-            "title": "Why My ListView Was Scrolling to Random Positions",
-            "category": "widget-behavior",
-            "difficulty": "intermediate",
-            "status": "available",
-            "keywords": [
-                "listview",
-                "keys",
-                "scroll-position",
-                "page-storage"
-            ],
-            "created_at": "2025-01-16"
-        },
-        {
-            "id": "inheritedwidget-wrong-usage",
-            "title": "The InheritedWidget I Didn't Know I Was Using Wrong",
-            "category": "architecture",
-            "difficulty": "advanced",
-            "status": "available",
-            "keywords": [
-                "inheritedwidget",
-                "rebuilds",
-                "provider",
-                "state-management"
-            ],
-            "created_at": "2025-01-16"
-        },
-        {
-            "id": "const-keyword-understanding",
-            "title": "I Finally Understand What 'const' Actually Does in Flutter",
-            "category": "performance",
-            "difficulty": "intermediate",
-            "status": "available",
-            "keywords": [
-                "const",
-                "performance",
-                "optimization",
-                "immutability"
-            ],
-            "created_at": "2025-01-16"
-        },
-        {
-            "id": "buildcontext-element-tree",
-            "title": "BuildContext Isn't a Context. It's a Handle to the Element Tree.",
-            "category": "internals",
-            "difficulty": "advanced",
-            "status": "available",
-            "keywords": [
-                "buildcontext",
-                "element-tree",
-                "widget-tree",
-                "internals"
-            ],
-            "created_at": "2025-01-16"
-        },
-        {
-            "id": "globalkey-when-how",
-            "title": "GlobalKey: When You Need It, When You're Abusing It",
-            "category": "architecture",
-            "difficulty": "intermediate",
-            "status": "available",
-            "keywords": [
-                "globalkey",
-                "state-management",
-                "widget-communication"
-            ],
-            "created_at": "2025-01-16"
-        },
-        {
-            "id": "animation-jank-not-fps",
-            "title": "Why My 60 FPS Animation Still Felt Janky",
-            "category": "performance",
-            "difficulty": "advanced",
-            "status": "available",
-            "keywords": [
-                "performance",
-                "animation",
-                "jank",
-                "profiling",
-                "opacity"
-            ],
-            "created_at": "2025-01-16"
-        },
-        {
-            "id": "await-vs-unawaited",
-            "title": "The Difference Between 'await' and 'unawaited' Cost Me 2 Days",
-            "category": "dart-language",
-            "difficulty": "intermediate",
-            "status": "available",
-            "keywords": [
-                "async",
-                "await",
-                "dart",
-                "futures"
-            ],
-            "created_at": "2025-01-16"
-        },
-        {
-            "id": "state-management-what-matters",
-            "title": "State Management: I've Used Them All. Here's What Actually Matters.",
-            "category": "architecture",
-            "difficulty": "advanced",
-            "status": "available",
-            "keywords": [
-                "state-management",
-                "architecture",
-                "provider",
-                "bloc",
-                "riverpod"
-            ],
-            "created_at": "2025-01-16"
-        },
-        {
-            "id": "platform-channels-when-why",
-            "title": "Platform Channels: When to Build One, When to Find a Package",
-            "category": "platform",
-            "difficulty": "advanced",
-            "status": "available",
-            "keywords": [
-                "platform-channels",
-                "native",
-                "methodchannel",
-                "packages"
-            ],
-            "created_at": "2025-01-16"
-        },
-        {
-            "id": "api-layer-evolution",
-            "title": "I Rewrote Our API Layer 3 Times. Here's What I Learned.",
-            "category": "architecture",
-            "difficulty": "advanced",
-            "status": "available",
-            "keywords": [
-                "api",
-                "architecture",
-                "refactoring",
-                "error-handling"
-            ],
-            "created_at": "2025-01-16"
-        },
-        {
-            "id": "testing-what-matters",
-            "title": "Testing: The Tests I Wish I'd Written, The Tests I Regret",
-            "category": "testing",
-            "difficulty": "advanced",
-            "status": "available",
-            "keywords": [
-                "testing",
-                "widget-tests",
-                "integration-tests",
-                "coverage"
-            ],
-            "created_at": "2025-01-16"
-        },
-        {
-            "id": "flutter-mistakes-repeated",
-            "title": "The Flutter Mistakes I Made as a Junior, and Still See Seniors Making",
-            "category": "lessons-learned",
-            "difficulty": "all",
-            "status": "available",
-            "keywords": [
-                "best-practices",
-                "mistakes",
-                "lessons-learned",
-                "architecture"
-            ],
-            "created_at": "2025-01-16"
-        }
-    ]
+  "version": "1.0",
+  "last_updated": "2026-01-16T21:51:33.495061",
+  "topics": [
+    {
+      "id": "isolates-deep-dive",
+      "title": "Dart Isolates: Understanding the Memory Model",
+      "category": "concurrency",
+      "difficulty": "advanced",
+      "status": "used",
+      "keywords": [
+        "isolates",
+        "sendport",
+        "receiveport",
+        "memory",
+        "concurrency"
+      ],
+      "created_at": "2025-01-15",
+      "selected_at": "2026-01-16T21:17:51.111060",
+      "used_at": "2026-01-16T21:18:18.642953",
+      "draft_path": "drafts/2026-01-16-isolates-deep-dive"
+    },
+    {
+      "id": "widget-rebuild-triggers",
+      "title": "Widget Rebuilds: What Actually Triggers Them",
+      "category": "performance",
+      "difficulty": "intermediate",
+      "status": "available",
+      "keywords": [
+        "widget",
+        "rebuild",
+        "setstate",
+        "inheritedwidget",
+        "performance"
+      ],
+      "created_at": "2025-01-15",
+      "selected_at": "2026-01-14T23:36:51.011238"
+    },
+    {
+      "id": "render-pipeline-internals",
+      "title": "Flutter's Render Pipeline: From Widget to Pixels",
+      "category": "internals",
+      "difficulty": "advanced",
+      "status": "used",
+      "keywords": [
+        "renderobject",
+        "pipeline",
+        "rendering",
+        "layertree",
+        "compositing"
+      ],
+      "created_at": "2025-01-15",
+      "selected_at": "2026-01-16T21:31:41.600745",
+      "used_at": "2026-01-16T21:32:08.345868",
+      "draft_path": "drafts/2026-01-16-render-pipeline-internals"
+    },
+    {
+      "id": "keys-deep-dive",
+      "title": "Keys in Flutter: Beyond the Basics",
+      "category": "architecture",
+      "difficulty": "intermediate",
+      "status": "available",
+      "keywords": [
+        "keys",
+        "globalkey",
+        "valuekey",
+        "objectkey",
+        "widget-tree"
+      ],
+      "created_at": "2025-01-15",
+      "selected_at": "2026-01-14T23:34:42.573726"
+    },
+    {
+      "id": "method-channel-implementation",
+      "title": "Platform Channels: Building Custom Method Channels",
+      "category": "platform",
+      "difficulty": "advanced",
+      "status": "available",
+      "keywords": [
+        "methodchannel",
+        "platform",
+        "native",
+        "android",
+        "ios"
+      ],
+      "created_at": "2025-01-15",
+      "selected_at": "2026-01-14T23:33:31.136945"
+    },
+    {
+      "id": "setstate-rebuild-mystery",
+      "title": "The setState() That Wasn't: Why My Widget Wouldn't Rebuild",
+      "category": "debugging",
+      "difficulty": "intermediate",
+      "status": "available",
+      "keywords": [
+        "setstate",
+        "rebuild",
+        "widget-lifecycle",
+        "keys",
+        "const"
+      ],
+      "created_at": "2025-01-16"
+    },
+    {
+      "id": "streamcontroller-memory-leak",
+      "title": "I Caused a Memory Leak with a Single StreamController",
+      "category": "performance",
+      "difficulty": "intermediate",
+      "status": "available",
+      "keywords": [
+        "memory-leak",
+        "streams",
+        "dispose",
+        "garbage-collection"
+      ],
+      "created_at": "2025-01-16"
+    },
+    {
+      "id": "buildcontext-async-gap",
+      "title": "BuildContext After async: The Async Gap That Crashes Your App",
+      "category": "bug-patterns",
+      "difficulty": "intermediate",
+      "status": "available",
+      "keywords": [
+        "buildcontext",
+        "async",
+        "mounted",
+        "navigation"
+      ],
+      "created_at": "2025-01-16"
+    },
+    {
+      "id": "listview-scroll-position",
+      "title": "Why My ListView Was Scrolling to Random Positions",
+      "category": "widget-behavior",
+      "difficulty": "intermediate",
+      "status": "available",
+      "keywords": [
+        "listview",
+        "keys",
+        "scroll-position",
+        "page-storage"
+      ],
+      "created_at": "2025-01-16"
+    },
+    {
+      "id": "inheritedwidget-wrong-usage",
+      "title": "The InheritedWidget I Didn't Know I Was Using Wrong",
+      "category": "architecture",
+      "difficulty": "advanced",
+      "status": "available",
+      "keywords": [
+        "inheritedwidget",
+        "rebuilds",
+        "provider",
+        "state-management"
+      ],
+      "created_at": "2025-01-16"
+    },
+    {
+      "id": "const-keyword-understanding",
+      "title": "I Finally Understand What 'const' Actually Does in Flutter",
+      "category": "performance",
+      "difficulty": "intermediate",
+      "status": "available",
+      "keywords": [
+        "const",
+        "performance",
+        "optimization",
+        "immutability"
+      ],
+      "created_at": "2025-01-16"
+    },
+    {
+      "id": "buildcontext-element-tree",
+      "title": "BuildContext Isn't a Context. It's a Handle to the Element Tree.",
+      "category": "internals",
+      "difficulty": "advanced",
+      "status": "available",
+      "keywords": [
+        "buildcontext",
+        "element-tree",
+        "widget-tree",
+        "internals"
+      ],
+      "created_at": "2025-01-16"
+    },
+    {
+      "id": "globalkey-when-how",
+      "title": "GlobalKey: When You Need It, When You're Abusing It",
+      "category": "architecture",
+      "difficulty": "intermediate",
+      "status": "available",
+      "keywords": [
+        "globalkey",
+        "state-management",
+        "widget-communication"
+      ],
+      "created_at": "2025-01-16"
+    },
+    {
+      "id": "animation-jank-not-fps",
+      "title": "Why My 60 FPS Animation Still Felt Janky",
+      "category": "performance",
+      "difficulty": "advanced",
+      "status": "available",
+      "keywords": [
+        "performance",
+        "animation",
+        "jank",
+        "profiling",
+        "opacity"
+      ],
+      "created_at": "2025-01-16"
+    },
+    {
+      "id": "await-vs-unawaited",
+      "title": "The Difference Between 'await' and 'unawaited' Cost Me 2 Days",
+      "category": "dart-language",
+      "difficulty": "intermediate",
+      "status": "available",
+      "keywords": [
+        "async",
+        "await",
+        "dart",
+        "futures"
+      ],
+      "created_at": "2025-01-16"
+    },
+    {
+      "id": "state-management-what-matters",
+      "title": "State Management: I've Used Them All. Here's What Actually Matters.",
+      "category": "architecture",
+      "difficulty": "advanced",
+      "status": "used",
+      "keywords": [
+        "state-management",
+        "architecture",
+        "provider",
+        "bloc",
+        "riverpod"
+      ],
+      "created_at": "2025-01-16",
+      "used_at": "2026-01-16T21:51:33.495055",
+      "draft_path": "drafts/2026-01-16-state-management-what-matters"
+    },
+    {
+      "id": "platform-channels-when-why",
+      "title": "Platform Channels: When to Build One, When to Find a Package",
+      "category": "platform",
+      "difficulty": "advanced",
+      "status": "available",
+      "keywords": [
+        "platform-channels",
+        "native",
+        "methodchannel",
+        "packages"
+      ],
+      "created_at": "2025-01-16"
+    },
+    {
+      "id": "api-layer-evolution",
+      "title": "I Rewrote Our API Layer 3 Times. Here's What I Learned.",
+      "category": "architecture",
+      "difficulty": "advanced",
+      "status": "available",
+      "keywords": [
+        "api",
+        "architecture",
+        "refactoring",
+        "error-handling"
+      ],
+      "created_at": "2025-01-16"
+    },
+    {
+      "id": "testing-what-matters",
+      "title": "Testing: The Tests I Wish I'd Written, The Tests I Regret",
+      "category": "testing",
+      "difficulty": "advanced",
+      "status": "available",
+      "keywords": [
+        "testing",
+        "widget-tests",
+        "integration-tests",
+        "coverage"
+      ],
+      "created_at": "2025-01-16"
+    },
+    {
+      "id": "flutter-mistakes-repeated",
+      "title": "The Flutter Mistakes I Made as a Junior, and Still See Seniors Making",
+      "category": "lessons-learned",
+      "difficulty": "all",
+      "status": "available",
+      "keywords": [
+        "best-practices",
+        "mistakes",
+        "lessons-learned",
+        "architecture"
+      ],
+      "created_at": "2025-01-16"
+    }
+  ]
 }

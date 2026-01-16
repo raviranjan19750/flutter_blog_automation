@@ -11,6 +11,14 @@ on:
         description: 'Force generation even if recently run'
         required: false
         default: 'false'
+      prompt_template:
+        description: 'Select technical writing template'
+        required: true
+        default: 'config/prompt_template_v2.txt'
+        type: choice
+        options:
+          - 'config/prompt_template_v2.txt'
+          - 'config/prompt_template.txt'
 
 permissions:
   contents: write  # Needed to push commits
@@ -48,6 +56,7 @@ jobs:
       - name: Generate draft
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          PROMPT_TEMPLATE_PATH: ${{ github.event.inputs.prompt_template || 'config/prompt_template_v2.txt' }}
         run: |
           python scripts/generate_draft.py
       
