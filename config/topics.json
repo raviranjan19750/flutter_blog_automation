@@ -1,90 +1,90 @@
 {
-  "version": "1.0",
-  "last_updated": "2026-01-16T21:32:08.345875",
-  "topics": [
-    {
-      "id": "isolates-deep-dive",
-      "title": "Dart Isolates: Understanding the Memory Model",
-      "category": "concurrency",
-      "difficulty": "advanced",
-      "status": "used",
-      "keywords": [
-        "isolates",
-        "sendport",
-        "receiveport",
-        "memory",
-        "concurrency"
-      ],
-      "created_at": "2025-01-15",
-      "selected_at": "2026-01-16T21:17:51.111060",
-      "used_at": "2026-01-16T21:18:18.642953",
-      "draft_path": "drafts/2026-01-16-isolates-deep-dive"
-    },
-    {
-      "id": "widget-rebuild-triggers",
-      "title": "Widget Rebuilds: What Actually Triggers Them",
-      "category": "performance",
-      "difficulty": "intermediate",
-      "status": "in_progress",
-      "keywords": [
-        "widget",
-        "rebuild",
-        "setstate",
-        "inheritedwidget",
-        "performance"
-      ],
-      "created_at": "2025-01-15",
-      "selected_at": "2026-01-14T23:36:51.011238"
-    },
-    {
-      "id": "render-pipeline-internals",
-      "title": "Flutter's Render Pipeline: From Widget to Pixels",
-      "category": "internals",
-      "difficulty": "advanced",
-      "status": "used",
-      "keywords": [
-        "renderobject",
-        "pipeline",
-        "rendering",
-        "layertree",
-        "compositing"
-      ],
-      "created_at": "2025-01-15",
-      "selected_at": "2026-01-16T21:31:41.600745",
-      "used_at": "2026-01-16T21:32:08.345868",
-      "draft_path": "drafts/2026-01-16-render-pipeline-internals"
-    },
-    {
-      "id": "keys-deep-dive",
-      "title": "Keys in Flutter: Beyond the Basics",
-      "category": "architecture",
-      "difficulty": "intermediate",
-      "status": "in_progress",
-      "keywords": [
-        "keys",
-        "globalkey",
-        "valuekey",
-        "objectkey",
-        "widget-tree"
-      ],
-      "created_at": "2025-01-15",
-      "selected_at": "2026-01-14T23:34:42.573726"
-    },
-    {
-      "id": "method-channel-implementation",
-      "title": "Platform Channels: Building Custom Method Channels",
-      "category": "platform",
-      "difficulty": "advanced",
-      "status": "in_progress",
-      "keywords": [
-        "methodchannel",
-        "platform",
-        "native",
-        "android",
-        "ios"
-      ],
-      "created_at": "2025-01-15",
-      "selected_at": "2026-01-14T23:33:31.136945"
-    }
-  ]
+    "version": "1.0",
+    "last_updated": "2026-01-16T21:32:08.345875",
+    "topics": [
+        {
+            "id": "isolates-deep-dive",
+            "title": "Dart Isolates: Understanding the Memory Model",
+            "category": "concurrency",
+            "difficulty": "advanced",
+            "status": "used",
+            "keywords": [
+                "isolates",
+                "sendport",
+                "receiveport",
+                "memory",
+                "concurrency"
+            ],
+            "created_at": "2025-01-15",
+            "selected_at": "2026-01-16T21:17:51.111060",
+            "used_at": "2026-01-16T21:18:18.642953",
+            "draft_path": "drafts/2026-01-16-isolates-deep-dive"
+        },
+        {
+            "id": "widget-rebuild-triggers",
+            "title": "Widget Rebuilds: What Actually Triggers Them",
+            "category": "performance",
+            "difficulty": "intermediate",
+            "status": "available",
+            "keywords": [
+                "widget",
+                "rebuild",
+                "setstate",
+                "inheritedwidget",
+                "performance"
+            ],
+            "created_at": "2025-01-15",
+            "selected_at": "2026-01-14T23:36:51.011238"
+        },
+        {
+            "id": "render-pipeline-internals",
+            "title": "Flutter's Render Pipeline: From Widget to Pixels",
+            "category": "internals",
+            "difficulty": "advanced",
+            "status": "used",
+            "keywords": [
+                "renderobject",
+                "pipeline",
+                "rendering",
+                "layertree",
+                "compositing"
+            ],
+            "created_at": "2025-01-15",
+            "selected_at": "2026-01-16T21:31:41.600745",
+            "used_at": "2026-01-16T21:32:08.345868",
+            "draft_path": "drafts/2026-01-16-render-pipeline-internals"
+        },
+        {
+            "id": "keys-deep-dive",
+            "title": "Keys in Flutter: Beyond the Basics",
+            "category": "architecture",
+            "difficulty": "intermediate",
+            "status": "available",
+            "keywords": [
+                "keys",
+                "globalkey",
+                "valuekey",
+                "objectkey",
+                "widget-tree"
+            ],
+            "created_at": "2025-01-15",
+            "selected_at": "2026-01-14T23:34:42.573726"
+        },
+        {
+            "id": "method-channel-implementation",
+            "title": "Platform Channels: Building Custom Method Channels",
+            "category": "platform",
+            "difficulty": "advanced",
+            "status": "available",
+            "keywords": [
+                "methodchannel",
+                "platform",
+                "native",
+                "android",
+                "ios"
+            ],
+            "created_at": "2025-01-15",
+            "selected_at": "2026-01-14T23:33:31.136945"
+        }
+    ]
 }

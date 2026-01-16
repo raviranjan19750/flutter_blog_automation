@@ -53,25 +53,18 @@ def select_next_topic(topics_file='config/topics.json'):
     # Select topic
     topic = random.choices(available, weights=weights, k=1)[0]
     
+    # Selected topic info
     print(f"\n✅ Selected: {topic['title']}")
     print(f"   Category: {topic['category']}")
     print(f"   Difficulty: {topic['difficulty']}")
     
-    # Mark as in_progress
-    topic['status'] = 'in_progress'
-    topic['selected_at'] = datetime.now().isoformat()
-    
-    # Update topics.json
-    data['last_updated'] = datetime.now().isoformat()
-    
-    with open(topics_path, 'w') as f:
-        json.dump(data, f, indent=2)
-    
-    # Save selected topic for next script
+    # Save selected topic for next script (temporary, for the pipeline)
+    # This does NOT update topics.json yet
     with open('.selected_topic.json', 'w') as f:
         json.dump(topic, f, indent=2)
     
     return topic
+
 
 if __name__ == "__main__":
     topic = select_next_topic()
