@@ -1,0 +1,20 @@
+{
+  "topic_id": "method-channel-implementation",
+  "title": "Platform Channels: Building Custom Method Channels",
+  "category": "platform",
+  "difficulty": "advanced",
+  "keywords": [
+    "methodchannel",
+    "platform",
+    "native",
+    "android",
+    "ios"
+  ],
+  "generated_at": "2026-01-19T09:30:45.361997",
+  "word_count": 2107,
+  "char_count": 16059,
+  "model_used": "claude-3-haiku-20240307",
+  "tokens_input": 2371,
+  "tokens_output": 4086,
+  "status": "draft"
+}

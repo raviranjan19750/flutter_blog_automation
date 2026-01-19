@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-01-16T16:38:02.479060",
+  "last_updated": "2026-01-19T09:30:45.362321",
   "topics": [
     {
       "id": "isolates-deep-dive",
@@ -67,7 +67,7 @@
       "title": "Platform Channels: Building Custom Method Channels",
       "category": "platform",
       "difficulty": "advanced",
-      "status": "available",
+      "status": "used",
       "keywords": [
         "methodchannel",
         "platform",
@@ -75,7 +75,9 @@
         "android",
         "ios"
       ],
-      "created_at": "2025-01-15"
+      "created_at": "2025-01-15",
+      "used_at": "2026-01-19T09:30:45.362317",
+      "draft_path": "drafts/2026-01-19-method-channel-implementation"
     },
     {
       "id": "setstate-rebuild-mystery",
