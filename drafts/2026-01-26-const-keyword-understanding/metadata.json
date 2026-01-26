@@ -1,0 +1,19 @@
+{
+  "topic_id": "const-keyword-understanding",
+  "title": "I Finally Understand What 'const' Actually Does in Flutter",
+  "category": "performance",
+  "difficulty": "intermediate",
+  "keywords": [
+    "const",
+    "performance",
+    "optimization",
+    "immutability"
+  ],
+  "generated_at": "2026-01-26T09:30:32.796162",
+  "word_count": 1824,
+  "char_count": 12185,
+  "model_used": "claude-3-haiku-20240307",
+  "tokens_input": 2373,
+  "tokens_output": 2875,
+  "status": "draft"
+}
