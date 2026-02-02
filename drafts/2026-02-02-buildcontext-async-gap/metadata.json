@@ -1,0 +1,19 @@
+{
+  "topic_id": "buildcontext-async-gap",
+  "title": "BuildContext After async: The Async Gap That Crashes Your App",
+  "category": "bug-patterns",
+  "difficulty": "intermediate",
+  "keywords": [
+    "buildcontext",
+    "async",
+    "mounted",
+    "navigation"
+  ],
+  "generated_at": "2026-02-02T09:42:23.539455",
+  "word_count": 1907,
+  "char_count": 11858,
+  "model_used": "claude-3-haiku-20240307",
+  "tokens_input": 2379,
+  "tokens_output": 2860,
+  "status": "draft"
+}
