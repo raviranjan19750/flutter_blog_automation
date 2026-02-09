@@ -1,0 +1,19 @@
+{
+  "topic_id": "api-layer-evolution",
+  "title": "I Rewrote Our API Layer 3 Times. Here's What I Learned.",
+  "category": "architecture",
+  "difficulty": "advanced",
+  "keywords": [
+    "api",
+    "architecture",
+    "refactoring",
+    "error-handling"
+  ],
+  "generated_at": "2026-02-09T09:58:56.468281",
+  "word_count": 2210,
+  "char_count": 14384,
+  "model_used": "claude-3-haiku-20240307",
+  "tokens_input": 2391,
+  "tokens_output": 3414,
+  "status": "draft"
+}

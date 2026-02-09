@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-02-02T09:42:23.539764",
+  "last_updated": "2026-02-09T09:58:56.468608",
   "topics": [
     {
       "id": "isolates-deep-dive",
@@ -260,14 +260,16 @@
       "title": "I Rewrote Our API Layer 3 Times. Here's What I Learned.",
       "category": "architecture",
       "difficulty": "advanced",
-      "status": "available",
+      "status": "used",
       "keywords": [
         "api",
         "architecture",
         "refactoring",
         "error-handling"
       ],
-      "created_at": "2025-01-16"
+      "created_at": "2025-01-16",
+      "used_at": "2026-02-09T09:58:56.468604",
+      "draft_path": "drafts/2026-02-09-api-layer-evolution"
     },
     {
       "id": "testing-what-matters",
