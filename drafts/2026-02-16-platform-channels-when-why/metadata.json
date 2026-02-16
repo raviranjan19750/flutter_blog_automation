@@ -1,0 +1,19 @@
+{
+  "topic_id": "platform-channels-when-why",
+  "title": "Platform Channels: When to Build One, When to Find a Package",
+  "category": "platform",
+  "difficulty": "advanced",
+  "keywords": [
+    "platform-channels",
+    "native",
+    "methodchannel",
+    "packages"
+  ],
+  "generated_at": "2026-02-16T09:48:49.194496",
+  "word_count": 1865,
+  "char_count": 12690,
+  "model_used": "claude-3-haiku-20240307",
+  "tokens_input": 2381,
+  "tokens_output": 2911,
+  "status": "draft"
+}
