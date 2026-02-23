@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-02-16T09:48:49.194800",
+  "last_updated": "2026-02-23T09:50:24.115986",
   "topics": [
     {
       "id": "isolates-deep-dive",
@@ -129,14 +129,16 @@
       "title": "Why My ListView Was Scrolling to Random Positions",
       "category": "widget-behavior",
       "difficulty": "intermediate",
-      "status": "available",
+      "status": "used",
       "keywords": [
         "listview",
         "keys",
         "scroll-position",
         "page-storage"
       ],
-      "created_at": "2025-01-16"
+      "created_at": "2025-01-16",
+      "used_at": "2026-02-23T09:50:24.115982",
+      "draft_path": "drafts/2026-02-23-listview-scroll-position"
     },
     {
       "id": "inheritedwidget-wrong-usage",
