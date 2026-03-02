@@ -1,0 +1,20 @@
+{
+  "topic_id": "setstate-rebuild-mystery",
+  "title": "The setState() That Wasn't: Why My Widget Wouldn't Rebuild",
+  "category": "debugging",
+  "difficulty": "intermediate",
+  "keywords": [
+    "setstate",
+    "rebuild",
+    "widget-lifecycle",
+    "keys",
+    "const"
+  ],
+  "generated_at": "2026-03-02T09:43:08.264962",
+  "word_count": 2303,
+  "char_count": 15948,
+  "model_used": "claude-3-haiku-20240307",
+  "tokens_input": 2385,
+  "tokens_output": 4096,
+  "status": "draft"
+}
