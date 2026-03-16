@@ -1,0 +1,20 @@
+{
+  "topic_id": "isolates-deep-dive",
+  "title": "Dart Isolates: Understanding the Memory Model",
+  "category": "concurrency",
+  "difficulty": "advanced",
+  "keywords": [
+    "isolates",
+    "sendport",
+    "receiveport",
+    "memory",
+    "concurrency"
+  ],
+  "generated_at": "2026-03-16T10:01:51.605019",
+  "word_count": 2172,
+  "char_count": 14150,
+  "model_used": "claude-3-haiku-20240307",
+  "tokens_input": 2379,
+  "tokens_output": 3531,
+  "status": "draft"
+}

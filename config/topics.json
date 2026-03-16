@@ -1,13 +1,13 @@
 {
   "version": "1.0",
-  "last_updated": "2026-03-09T09:44:04.339813",
+  "last_updated": "2026-03-16T10:01:51.605345",
   "topics": [
     {
       "id": "isolates-deep-dive",
       "title": "Dart Isolates: Understanding the Memory Model",
       "category": "concurrency",
       "difficulty": "advanced",
-      "status": "available",
+      "status": "used",
       "keywords": [
         "isolates",
         "sendport",
@@ -15,7 +15,9 @@
         "memory",
         "concurrency"
       ],
-      "created_at": "2025-01-15"
+      "created_at": "2025-01-15",
+      "used_at": "2026-03-16T10:01:51.605341",
+      "draft_path": "drafts/2026-03-16-isolates-deep-dive"
     },
     {
       "id": "widget-rebuild-triggers",
