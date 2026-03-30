@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-03-23T09:58:34.157777",
+  "last_updated": "2026-03-30T10:13:05.577686",
   "topics": [
     {
       "id": "isolates-deep-dive",
@@ -181,14 +181,16 @@
       "title": "BuildContext Isn't a Context. It's a Handle to the Element Tree.",
       "category": "internals",
       "difficulty": "advanced",
-      "status": "available",
+      "status": "used",
       "keywords": [
         "buildcontext",
         "element-tree",
         "widget-tree",
         "internals"
       ],
-      "created_at": "2025-01-16"
+      "created_at": "2025-01-16",
+      "used_at": "2026-03-30T10:13:05.577681",
+      "draft_path": "drafts/2026-03-30-buildcontext-element-tree"
     },
     {
       "id": "globalkey-when-how",

@@ -1,0 +1,19 @@
+{
+  "topic_id": "buildcontext-element-tree",
+  "title": "BuildContext Isn't a Context. It's a Handle to the Element Tree.",
+  "category": "internals",
+  "difficulty": "advanced",
+  "keywords": [
+    "buildcontext",
+    "element-tree",
+    "widget-tree",
+    "internals"
+  ],
+  "generated_at": "2026-03-30T10:13:05.577387",
+  "word_count": 1850,
+  "char_count": 12089,
+  "model_used": "claude-3-haiku-20240307",
+  "tokens_input": 2393,
+  "tokens_output": 2827,
+  "status": "draft"
+}
