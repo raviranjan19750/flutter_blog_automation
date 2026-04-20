@@ -1,0 +1,19 @@
+{
+  "topic_id": "streamcontroller-memory-leak",
+  "title": "I Caused a Memory Leak with a Single StreamController",
+  "category": "performance",
+  "difficulty": "intermediate",
+  "keywords": [
+    "memory-leak",
+    "streams",
+    "dispose",
+    "garbage-collection"
+  ],
+  "generated_at": "2026-04-20T10:43:54.550589",
+  "word_count": 1563,
+  "char_count": 12092,
+  "model_used": "claude-3-haiku-20240307",
+  "tokens_input": 2375,
+  "tokens_output": 2919,
+  "status": "draft"
+}

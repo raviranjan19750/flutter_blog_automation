@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-04-13T10:28:34.671128",
+  "last_updated": "2026-04-20T10:43:54.550865",
   "topics": [
     {
       "id": "isolates-deep-dive",
@@ -105,14 +105,16 @@
       "title": "I Caused a Memory Leak with a Single StreamController",
       "category": "performance",
       "difficulty": "intermediate",
-      "status": "available",
+      "status": "used",
       "keywords": [
         "memory-leak",
         "streams",
         "dispose",
         "garbage-collection"
       ],
-      "created_at": "2025-01-16"
+      "created_at": "2025-01-16",
+      "used_at": "2026-04-20T10:43:54.550861",
+      "draft_path": "drafts/2026-04-20-streamcontroller-memory-leak"
     },
     {
       "id": "buildcontext-async-gap",
